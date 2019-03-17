@@ -16,6 +16,10 @@
 #Include common
 $(call inherit-product, vendor/descendant/config/common.mk)
 
+#Messaging 
+PRODUCT_PACKAGES += \
+    messaging
+
 #Telephony
 PRODUCT_PACKAGES += \
     CellBroadcastReceiver

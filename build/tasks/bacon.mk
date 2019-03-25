@@ -16,7 +16,7 @@
 # -----------------------------------------------------------------
 # DESCENDANT OTA update package
 
-DESCENDANT_TARGET_PACKAGE := $(PRODUCT_OUT)/DESCENDANT-$(DESCENDANT_VERSION).zip
+DESCENDANT_TARGET_PACKAGE := $(PRODUCT_OUT)/$(DESCENDANT_VERSION).zip
 
 .PHONY: bacon
 bacon: $(INTERNAL_OTA_PACKAGE_TARGET)

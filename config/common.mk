@@ -96,7 +96,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.sys.disable_rescue=true \
     persist.debug.wfd.enable=1 \
     persist.sys.wfd.virtual=0 \
-    ro.build.selinux=1
+    ro.build.selinux=1 \
+    ro.opa.eligible_device=true
 
 # Disable Rescue Party
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \

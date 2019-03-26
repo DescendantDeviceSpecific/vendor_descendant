@@ -16,7 +16,7 @@
 #Include common
 $(call inherit-product, vendor/descendant/config/common.mk)
 
-#Messaging 
+#Messaging
 PRODUCT_PACKAGES += \
     messaging
 

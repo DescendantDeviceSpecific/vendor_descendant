@@ -33,17 +33,6 @@ PRODUCT_PACKAGES += \
         OpenCamera
 endif
 
-#APKs libs
-PRODUCT_COPY_FILES += \
-        vendor/descendant/prebuilt/libs/lib/libsketchology_native.so:system/lib/libsketchology_native.so \
-        vendor/descendant/prebuilt/libs/lib64/libsketchology_native.so:system/lib64/libsketchology_native.so
-
 #Confs
 PRODUCT_COPY_FILES += \
         vendor/descendant/prebuilt/configs/pixel.xml:system/etc/sysconfig/pixel.xml
-
-# Turbo
-PRODUCT_PACKAGES += \
-        Turbo \
-        turbo.xml \
-        privapp-permissions-turbo.xml

@@ -118,3 +118,16 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
 # Versioning
 include vendor/descendant/config/version.mk
+
+# GApps
+
+GAPPS_VARIANT := nano
+GAPPS_PRODUCT_PACKAGES += \
+    Dialer \
+    Gmail \
+    Messenger \
+    ContactsGoogle
+    FaceDetect \
+    FaceUnlock \
+    Markup
+

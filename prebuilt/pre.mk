@@ -18,7 +18,6 @@
 PRODUCT_PACKAGES += \
         CameraRoll \
         KiwiBrowser \
-        Markup \
         Phonograph \
         SimpleCalculator \
         AmazeFileManager

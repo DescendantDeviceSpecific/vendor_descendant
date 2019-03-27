@@ -20,10 +20,19 @@ PRODUCT_PACKAGES += \
         KiwiBrowser \
         Markup \
         Phonograph \
-        OpenCamera \
         SimpleCalculator \
         AmazeFileManager
 
+ifeq ($(grep msm,$(TARGET_BOARD_PLATFORM)),)
+
+# Build Snapdragon Camera
+PRODUCT_PACKAGES += \
+        SnapdragonCamera
+else
+
+PRODUCT_PACKAGES += \
+        OpenCamera
+endif
 
 #APKs libs
 PRODUCT_COPY_FILES += \

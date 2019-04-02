@@ -32,6 +32,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     WeatherClient
 
+#OTA
+PRODUCT_PACKAGES += \
+    DescendantOTA
+
 #Fonts
 PRODUCT_COPY_FILES += \
     vendor/descendant/fonts/GoogleSans-Regular.ttf:system/fonts/GoogleSans-Regular.ttf \

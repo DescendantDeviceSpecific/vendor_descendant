@@ -19,9 +19,17 @@ PRODUCT_PACKAGES += \
         CameraRoll \
         KiwiBrowser \
         Phonograph \
-        GAppsRemover \
         SimpleCalculator \
         AmazeFileManager
+
+ifeq ($(grep true,$(IS_GAPPS_BUILD)),)
+PRODUCT_PACKAGES += \
+        GAppsRemover \
+        Markup \
+        Turbo \
+        turbo.xml \
+        privapp-permissions-turbo.xml
+endif
 
 ifeq ($(grep msm,$(TARGET_BOARD_PLATFORM)),)
 
@@ -33,6 +41,11 @@ else
 PRODUCT_PACKAGES += \
         OpenCamera
 endif
+
+#APKs libs
+PRODUCT_COPY_FILES += \
+        vendor/descendant/prebuilt/libs/lib/libsketchology_native.so:system/lib/libsketchology_native.so \
+        vendor/descendant/prebuilt/libs/lib64/libsketchology_native.so:system/lib64/libsketchology_native.so
 
 #Confs
 PRODUCT_COPY_FILES += \

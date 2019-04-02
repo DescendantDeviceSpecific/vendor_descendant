@@ -120,6 +120,7 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 include vendor/descendant/config/version.mk
 
 # GApps
+ifeq ($(grep true,$(IS_GAPPS_BUILD)),)
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
 GAPPS_VARIANT += nano
@@ -134,4 +135,4 @@ GAPPS_PRODUCT_PACKAGES += \
     FaceDetect \
     FaceUnlock \
     MarkupGoogle
-
+endif

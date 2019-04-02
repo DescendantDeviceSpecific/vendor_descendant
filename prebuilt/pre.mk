@@ -26,7 +26,7 @@ ifeq ($(grep true,$(IS_GAPPS_BUILD)),)
 PRODUCT_PACKAGES += \
         GAppsRemover \
         Markup \
-        Turbo \
+        TurboPrebuilt \
         turbo.xml \
         privapp-permissions-turbo.xml
 endif

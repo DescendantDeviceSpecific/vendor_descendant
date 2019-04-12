@@ -18,18 +18,10 @@
 PRODUCT_PACKAGES += \
         CameraRoll \
         KiwiBrowser \
+        Markup \
         Phonograph \
         SimpleCalculator \
         AmazeFileManager
-
-ifeq ($(grep true,$(IS_GAPPS_BUILD)),)
-PRODUCT_PACKAGES += \
-        GAppsRemover \
-        Markup \
-        TurboPrebuilt \
-        turbo.xml \
-        privapp-permissions-turbo.xml
-endif
 
 ifeq ($(grep msm,$(TARGET_BOARD_PLATFORM)),)
 
@@ -50,3 +42,9 @@ PRODUCT_COPY_FILES += \
 #Confs
 PRODUCT_COPY_FILES += \
         vendor/descendant/prebuilt/configs/pixel.xml:system/etc/sysconfig/pixel.xml
+
+# Turbo
+PRODUCT_PACKAGES += \
+        Turbo \
+        turbo.xml \
+        privapp-permissions-turbo.xml

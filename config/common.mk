@@ -53,7 +53,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.services.whitelist.packagelist=com.google.android.gms
 
-#Build themes
+#Build themes 
 include vendor/themes/common.mk
 
 #Build sounds
@@ -122,21 +122,3 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
 # Versioning
 include vendor/descendant/config/version.mk
-
-# GApps
-ifeq ($(grep true,$(IS_GAPPS_BUILD)),)
-$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
-
-GAPPS_VARIANT += nano
-GAPPS_FORCE_MMS_OVERRIDES := true
-GAPPS_PRODUCT_PACKAGES += \
-    GoogleDialer \
-    DigitalWellbeing \
-    PrebuiltGmail \
-    LatinImeGoogle \
-    Messenger \
-    GoogleContacts \
-    FaceDetect \
-    FaceUnlock \
-    MarkupGoogle
-endif

@@ -38,12 +38,24 @@ PRODUCT_PACKAGES += \
 
 #Fonts
 PRODUCT_COPY_FILES += \
-    vendor/descendant/fonts/GoogleSans-Regular.ttf:system/fonts/GoogleSans-Regular.ttf \
-    vendor/descendant/fonts/GoogleSans-Medium.ttf:system/fonts/GoogleSans-Medium.ttf \
-    vendor/descendant/fonts/GoogleSans-MediumItalic.ttf:system/fonts/GoogleSans-MediumItalic.ttf \
-    vendor/descendant/fonts/GoogleSans-Italic.ttf:system/fonts/GoogleSans-Italic.ttf \
-    vendor/descendant/fonts/GoogleSans-Bold.ttf:system/fonts/GoogleSans-Bold.ttf \
-    vendor/descendant/fonts/GoogleSans-BoldItalic.ttf:system/fonts/GoogleSans-BoldItalic.ttf
+    vendor/descendant/fonts/Montserrat-Black.ttf:system/fonts/Montserrat-Black.ttf \
+    vendor/descendant/fonts/Montserrat-BlackItalic.ttf:system/fonts/Montserrat-BlackItalic.ttf \
+    vendor/descendant/fonts/Montserrat-Bold.ttf:system/fonts/Montserrat-Bold.ttf \
+    vendor/descendant/fonts/Montserrat-BoldItalic.ttf:system/fonts/Montserrat-BoldItalic.ttf \
+    vendor/descendant/fonts/Montserrat-ExtraBold.ttf:system/fonts/Montserrat-ExtraBold.ttf \
+    vendor/descendant/fonts/Montserrat-ExtraBoldItalic.ttf:system/fonts/Montserrat-ExtraBoldItalic.ttf \
+    vendor/descendant/fonts/Montserrat-ExtraLight.ttf:system/fonts/Montserrat-ExtraLight.ttf \
+    vendor/descendant/fonts/Montserrat-ExtraLightItalic.ttf:system/fonts/Montserrat-ExtraLightItalic.ttf \
+    vendor/descendant/fonts/Montserrat-Italic.ttf:system/fonts/Montserrat-Italic.ttf \
+    vendor/descendant/fonts/Montserrat-Light.ttf:system/fonts/Montserrat-Light.ttf \
+    vendor/descendant/fonts/Montserrat-LightItalic.ttf:system/fonts/Montserrat-LightItalic.ttf \
+    vendor/descendant/fonts/Montserrat-Medium.ttf:system/fonts/Montserrat-Medium.ttf \
+    vendor/descendant/fonts/Montserrat-MediumItalic.ttf:system/fonts/Montserrat-MediumItalic.ttf \
+    vendor/descendant/fonts/Montserrat-Regular.ttf:system/fonts/Montserrat-Regular.ttf \
+    vendor/descendant/fonts/Montserrat-SemiBold.ttf:system/fonts/Montserrat-SemiBold.ttf \
+    vendor/descendant/fonts/Montserrat-SemiBoldItalic.ttf:system/fonts/Montserrat-SemiBoldItalic.ttf \
+    vendor/descendant/fonts/Montserrat-Thin.ttf:system/fonts/Montserrat-Thin.ttf \
+    vendor/descendant/fonts/Montserrat-ThinItalic.ttf:system/fonts/Montserrat-ThinItalic.ttf 
 
 #Pixel Sysconfig
 PRODUCT_COPY_FILES += \

@@ -38,24 +38,24 @@ PRODUCT_PACKAGES += \
 
 #Fonts
 PRODUCT_COPY_FILES += \
-    vendor/descendant/fonts/Montserrat-Black.ttf:system/fonts/Montserrat-Black.ttf \
-    vendor/descendant/fonts/Montserrat-BlackItalic.ttf:system/fonts/Montserrat-BlackItalic.ttf \
-    vendor/descendant/fonts/Montserrat-Bold.ttf:system/fonts/Montserrat-Bold.ttf \
-    vendor/descendant/fonts/Montserrat-BoldItalic.ttf:system/fonts/Montserrat-BoldItalic.ttf \
-    vendor/descendant/fonts/Montserrat-ExtraBold.ttf:system/fonts/Montserrat-ExtraBold.ttf \
-    vendor/descendant/fonts/Montserrat-ExtraBoldItalic.ttf:system/fonts/Montserrat-ExtraBoldItalic.ttf \
-    vendor/descendant/fonts/Montserrat-ExtraLight.ttf:system/fonts/Montserrat-ExtraLight.ttf \
-    vendor/descendant/fonts/Montserrat-ExtraLightItalic.ttf:system/fonts/Montserrat-ExtraLightItalic.ttf \
-    vendor/descendant/fonts/Montserrat-Italic.ttf:system/fonts/Montserrat-Italic.ttf \
-    vendor/descendant/fonts/Montserrat-Light.ttf:system/fonts/Montserrat-Light.ttf \
-    vendor/descendant/fonts/Montserrat-LightItalic.ttf:system/fonts/Montserrat-LightItalic.ttf \
-    vendor/descendant/fonts/Montserrat-Medium.ttf:system/fonts/Montserrat-Medium.ttf \
-    vendor/descendant/fonts/Montserrat-MediumItalic.ttf:system/fonts/Montserrat-MediumItalic.ttf \
-    vendor/descendant/fonts/Montserrat-Regular.ttf:system/fonts/Montserrat-Regular.ttf \
-    vendor/descendant/fonts/Montserrat-SemiBold.ttf:system/fonts/Montserrat-SemiBold.ttf \
-    vendor/descendant/fonts/Montserrat-SemiBoldItalic.ttf:system/fonts/Montserrat-SemiBoldItalic.ttf \
-    vendor/descendant/fonts/Montserrat-Thin.ttf:system/fonts/Montserrat-Thin.ttf \
-    vendor/descendant/fonts/Montserrat-ThinItalic.ttf:system/fonts/Montserrat-ThinItalic.ttf 
+    vendor/descendant/fonts/Montserrat-Black.ttf:system/fonts/Roboto-Black.ttf \
+    vendor/descendant/fonts/Montserrat-BlackItalic.ttf:system/fonts/Roboto-BlackItalic.ttf \
+    vendor/descendant/fonts/Montserrat-Bold.ttf:system/fonts/Roboto-Bold.ttf \
+    vendor/descendant/fonts/Montserrat-BoldItalic.ttf:system/fonts/Roboto-BoldItalic.ttf \
+    vendor/descendant/fonts/Montserrat-ExtraBold.ttf:system/fonts/Roboto-ExtraBold.ttf \
+    vendor/descendant/fonts/Montserrat-ExtraBoldItalic.ttf:system/fonts/Roboto-ExtraBoldItalic.ttf \
+    vendor/descendant/fonts/Montserrat-ExtraLight.ttf:system/fonts/Roboto-ExtraLight.ttf \
+    vendor/descendant/fonts/Montserrat-ExtraLightItalic.ttf:system/fonts/Roboto-ExtraLightItalic.ttf \
+    vendor/descendant/fonts/Montserrat-Italic.ttf:system/fonts/Roboto-Italic.ttf \
+    vendor/descendant/fonts/Montserrat-Light.ttf:system/fonts/Roboto-Light.ttf \
+    vendor/descendant/fonts/Montserrat-LightItalic.ttf:system/fonts/Roboto-LightItalic.ttf \
+    vendor/descendant/fonts/Montserrat-Medium.ttf:system/fonts/Roboto-Medium.ttf \
+    vendor/descendant/fonts/Montserrat-MediumItalic.ttf:system/fonts/Roboto-MediumItalic.ttf \
+    vendor/descendant/fonts/Montserrat-Regular.ttf:system/fonts/Roboto-Regular.ttf \
+    vendor/descendant/fonts/Montserrat-SemiBold.ttf:system/fonts/Roboto-SemiBold.ttf \
+    vendor/descendant/fonts/Montserrat-SemiBoldItalic.ttf:system/fonts/Roboto-SemiBoldItalic.ttf \
+    vendor/descendant/fonts/Montserrat-Thin.ttf:system/fonts/Roboto-Thin.ttf \
+    vendor/descendant/fonts/Montserrat-ThinItalic.ttf:system/fonts/Roboto-ThinItalic.ttf 
 
 #Pixel Sysconfig
 PRODUCT_COPY_FILES += \

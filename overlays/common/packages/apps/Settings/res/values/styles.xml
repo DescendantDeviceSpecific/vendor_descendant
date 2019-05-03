@@ -15,6 +15,6 @@
     <style name="TextAppearance.SearchBar" parent="@*android:style/TextAppearance.Material.Widget.Toolbar.Subtitle">
         <item name="android:textSize">16dp</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:fontFamily">google-sans</item>
+        <item name="android:fontFamily">montserrat</item>
     </style>
 </resources>

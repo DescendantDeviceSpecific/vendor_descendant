@@ -28,6 +28,8 @@ elif [[ ${TAG} != "android-"* ]]; then
   echo -e "${RED}Invalid tag to merge!${REST}"; exit 1
 fi
  MERGE_REPO=(
+  "art"
+  "bootable/recovery"
   "build"
   "system/core"
   "frameworks/base"
